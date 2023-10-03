@@ -20,6 +20,7 @@ public class OrtHesap {
 
         double sonuc = (mat+fizik+kimya+turkce+tarih+muzik)/6;
         System.out.println("Ortalamanız : "+sonuc);
+        System.out.println((sonuc>=60) ? "Sınıfı Geçti": "Sınıfta Kaldı");
 
 
     }
